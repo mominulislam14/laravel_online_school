@@ -1,0 +1,176 @@
+html{
+	scroll-behavior:smooth;
+}
+body{
+	font-family:poppins;
+}
+/*header start*/
+header{
+	background-image:url("../img/school-1.jpg");
+	background-position:center;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.banner-container{
+	height:100vh;
+}
+.navbar{
+	padding:1% 5%;
+	background-color: black;
+	/* background-color:rgba(15, 1, 1, 0.3); */
+}
+.navbar-icon{
+	color:white;
+}
+.navbar-brand img{
+	width:60px;
+	height:auto;
+}
+.nav-link{
+	color:white;
+	margin:10px;
+	border-radius:-5px;
+	transition:.4s;
+}
+.nav-link:hover{
+	background:red;
+	color:navy;
+	transform:scale(1.1);
+}
+.banner-container h1{
+	font-size:3.5rem;
+	background-color:rgba(7,108,100,0.8);
+	padding:10px 20px;
+	font-family:arial;
+}
+/*header end*/
+
+/*featured starts*/
+#features{
+	padding:5% 10%;
+	background:#8cfffb;
+}
+.features-col{
+	border:1px solid #ff02c0;
+	border-radius:5px;
+	padding:15px;
+	margin:20px 0;
+	transition:.4s;
+}
+.features-col:hover{
+	transform:scale(1.1);
+	box-shadow:3px 3px 3px 3px black;
+}
+.icon-style{
+	color:black;
+	padding:15px;
+	margin:5px 0;
+}
+/*featured ends*/
+
+.hr-style{
+	border:5px dotted white;
+	border-bottom:none;
+	width:50px;
+}
+.section-title h3{
+	font-weight:bolder;
+	margin-bottom:0;
+}
+
+/*about me start*/
+#about {
+	background-color: #f8f8f8;
+	padding: 100px 0;
+  }
+  
+  #about h2 {
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 30px;
+  }
+  
+  #about p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+  }
+  
+  #about img {
+	max-width: 100%;
+  } 
+/* about me end */
+
+/*tutorial start here*/
+#tutorial{
+	padding:4% 10%;
+	background:#01e3ff;
+}
+.card{
+	transition:.4s;
+	border:1px solid #ff02c0;
+}
+.card:hover{
+	transform:scale(1.1);
+	box-shadow:3px 3px 3px 3px black;
+}
+/*tutorial end here*/
+
+/*feedback starts*/
+#feedback{
+	padding:5%;
+	background:#fffbc3;
+}
+.carousel-item{
+	text-align:center;
+	padding:7% 15%;
+	font-style:italic;
+	font-size:1.2rem;
+}
+.feedback-img{
+	width:220px;
+	height:auto;
+	margin-bottom:5px;
+}
+
+/*feedback ends*/
+
+/*contact starts*/
+#contact{
+	padding:2% 10%;
+	background:#524040;
+}
+.form-group{
+	margin-bottom:0;
+	font-weight:bold;
+}
+/*contact starts*/
+/*footer start*/
+footer{
+	padding:1% 10%;
+	background:black;
+}
+.footer_color{
+	background: black;
+}
+footer a{
+	color:white;
+	margin-bottom:0 10px;
+	text-decoration:none;
+}
+footer a:hover{
+	color:rgb(59, 15, 239);
+}
+
+/*footer end*/
+
+@media (max-width:768px){
+	.nav-link{
+		background:rgb(0,0,0,0.7);
+	}
+	.banner-container h1{
+		font-size:2rem;
+		
+	}
+}
